@@ -1,0 +1,8 @@
+- hosts: all
+  remote_user: debian
+  tasks:
+  - name: Ansible copy directory to the remote server
+    copy:
+      src: /home/debian/joubert
+      dest: /home/debian/
+
