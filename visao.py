@@ -22,4 +22,4 @@ if __name__ == "__main__":
     try:
         iniciaDisplay()
     except KeyboardInterrupt:
-        print('Display-Out!')
+        print('Saída do Display')
